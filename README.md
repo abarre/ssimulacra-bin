@@ -6,12 +6,12 @@
 
 Changes compared to Krause's SSIM implementation:
 
-> Convert sRGB to linear RGB and then to Lab*, to get a perceptually more accurate color space
-> Multi-scale (6 scales)
-> Extra penalty for specific kinds of artifacts:
-- local artifacts
-- grid-like artifacts (blockiness)
-- introducing edges where the original is smooth (blockiness / color banding / ringing / mosquito noise)
+- Convert sRGB to linear RGB and then to Lab*, to get a perceptually more accurate color space
+- Multi-scale (6 scales)
+- Extra penalty for specific kinds of artifacts:
+  - local artifacts
+  - grid-like artifacts (blockiness)
+  - introducing edges where the original is smooth (blockiness / color banding / ringing / mosquito noise)
 
 ## Install
 
