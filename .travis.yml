@@ -1,0 +1,10 @@
+sudo: required
+dist: xenial
+group: edge
+language: node_js
+before_install:
+  - sudo apt -qq update
+  - sudo apt install -y libopencv-imgproc-dev libopencv-imgcodecs-dev libopencv-highgui-dev libopencv-core-dev
+node_js:
+  - 10
+  - 8

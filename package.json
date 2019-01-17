@@ -1,0 +1,37 @@
+{
+  "name": "ssimulacra",
+  "version": "1.0.0",
+  "description": "ssimulacra-bin wrapper that makes it seamlessly available as a local dependency",
+  "author": "Anthony BARRE",
+  "repository": "https://github.com/abarre/ssimulacra-bin.git",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 8"
+  },
+  "bin": {
+    "ssimulacra": "cli.js"
+  },
+  "files": [
+    "lib",
+    "cli.js",
+    "index.js"
+  ],
+  "scripts": {
+    "postinstall": "node lib/install.js",
+    "test": "mocha --timeout 50000"
+  },
+  "keywords": [
+    "image",
+    "img",
+    "png",
+    "ssimulacra"
+  ],
+  "dependencies": {
+    "bin-build": "^3.0.0",
+    "logalot": "^2.0.0"
+  },
+  "devDependencies": {
+    "bin-check": "^4.1.0",
+    "mocha": "^5.2.0"
+  }
+}
