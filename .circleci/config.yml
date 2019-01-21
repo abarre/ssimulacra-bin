@@ -30,7 +30,7 @@ jobs:
           # We need all of these dependencies in order to run Puppeteer
           name: Installing Dependencies
           command: |
-            sudo apt-get update && sudo apt-get install -yq libopencv-core-dev libopencv-highgui libopencv-imgcodecs libopencv-imgproc
+            sudo apt-get update && sudo apt-get install -yq opencv
             yarn install
 
       - save_cache:
