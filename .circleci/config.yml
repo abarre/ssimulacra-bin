@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
       # specify the version you desire here
-      - image: circleci/node:8
+      - image: siomiz/node-opencv
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
@@ -26,12 +26,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - run:
-          # We need all of these dependencies in order to run Puppeteer
-          name: Installing Dependencies
-          command: |
-            sudo apt-get update && sudo apt-get install -yq opencv
-            yarn install
+      - run: yarn install
 
       - save_cache:
           paths:
