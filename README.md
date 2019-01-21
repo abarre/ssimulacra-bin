@@ -1,4 +1,4 @@
-# ssimulacra-bin [![Build Status](http://img.shields.io/travis/abarre/ssimulacra-bin.svg?style=flat)](http://travis-ci.org/abarre/ssimulacra-bin) ![Current Version](https://img.shields.io/npm/v/ssimulacra-bin.svg)
+# ssimulacra-bin [![CircleCI](https://circleci.com/gh/abarre/ssimulacra-bin.svg?style=svg)](https://circleci.com/gh/abarre/ssimulacra-bin)
 
 > [ssimulacra](https://github.com/cloudinary/ssimulacra) is a tool to compute the (dis)similarity between two or more PNG images using an algorithm approximating human vision.
 >
