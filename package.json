@@ -24,7 +24,11 @@
     "image",
     "img",
     "png",
-    "ssimulacra"
+    "ssimulacra",
+    "dssim",
+    "ssim",
+    "structural",
+    "similarity"
   ],
   "dependencies": {
     "bin-build": "^3.0.0",
